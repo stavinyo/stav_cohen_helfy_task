@@ -1,0 +1,14 @@
+
+.main-layout{
+
+    .header-title{
+        background-color: #1b8f64;
+        margin: 0;
+        padding:  1rem 0.5rem; 
+        
+    }
+
+    .main-context{
+        padding: 1rem;
+    }
+}

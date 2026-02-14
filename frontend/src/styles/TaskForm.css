@@ -1,0 +1,55 @@
+.task-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background: #fdfdfd;
+    border: 1px solid rgba(138, 124, 124, 0.2);
+    border-radius: 1rem;
+    max-width: 300px;
+    margin: 2rem auto;
+
+    .input-group {
+        display: flex;
+        gap: 0.5rem;
+
+        input {
+            flex: 2;
+            padding: 0.6rem;
+            border-radius: 0.5rem;
+            border: 1px solid #ccc;
+        }
+
+        select {
+            flex: 1;
+            padding: 0.6rem;
+            border-radius: 0.5rem;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    }
+
+    textarea {
+        height: 6rem;
+        padding: 0.6rem;
+        border-radius: 0.5rem;
+        border: 1px solid #ccc;
+        font-family: inherit;
+        resize: none;
+    }
+
+    .btn-add {
+        background-color: #16a637;
+        color: white;
+        border: none;
+        padding: 0.8rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: opacity 0.2s;
+
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+}

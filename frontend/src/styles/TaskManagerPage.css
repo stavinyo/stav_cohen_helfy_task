@@ -1,0 +1,72 @@
+.task-manager-page-wrapper {
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	height: calc(100vh - 120px);
+	position: relative;
+
+	.title-wrapper {
+		.title {
+			font-size: 1.5rem;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.open-modal-btn {
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+
+		border: 1px solid black;
+		width: fit-content;
+		height: 2rem;
+		margin: 1rem;
+		background: white;
+		border-radius: 0.5rem;
+		cursor: pointer;
+	}
+
+	.modal-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+
+		background-color: rgba(67, 66, 66, 0.576);
+		backdrop-filter: blur(4px);
+		z-index: 999;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.modal-content {
+			background: white;
+			border-radius: 1rem;
+			padding: 2rem 1rem;
+			position: relative;
+			width: 90%;
+			max-width: 500px;
+
+			.close-btn {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
+				position: absolute;
+				top: 0;
+				right: 0;
+				border: 2px solid black;
+				width: 2rem;
+				height: 2rem;
+				margin: 1rem;
+				background: white;
+				border-radius: 0.5rem;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+

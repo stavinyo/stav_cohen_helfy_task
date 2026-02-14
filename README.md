@@ -1,4 +1,4 @@
-<img width="358" height="755" alt="Screenshot 2026-02-14 at 16 39 49" src="https://github.com/user-attachments/assets/9d48f4b3-4483-4803-b017-f107c5bd1982" /># Stav Cohen - Task Manager
+# Stav Cohen - Task Manager
 
 Home assignment for Helfy.
 

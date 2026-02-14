@@ -1,4 +1,4 @@
-# Stav Cohen - Task Manager Task
+# Stav Cohen - Task Manager
 
 Home assignment for Helfy.
 
